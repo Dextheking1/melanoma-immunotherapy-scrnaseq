@@ -1,0 +1,8 @@
+signature,type,n_genes,AUC,eval
+Data-driven CD8 (memory-cytotoxic),data-driven,50,0.9215686274509803,in-sample (optimistic)
+TCF7 - GZMB (log ratio),biology-driven,2,0.8273244781783681,whole-sample pseudobulk
+Data-driven CD8 (memory-cytotoxic),data-driven,50,0.8039215686274509,leave-one-patient-out CV
+Memory/naive (TCF7),biology-driven,5,0.7855787476280836,whole-sample pseudobulk
+B cell / TLS,biology-driven,7,0.713472485768501,whole-sample pseudobulk
+Exhaustion (CD8),biology-driven,8,0.2504743833017078,whole-sample pseudobulk
+Cytotoxicity,biology-driven,8,0.21631878557874762,whole-sample pseudobulk
